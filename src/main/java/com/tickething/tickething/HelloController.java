@@ -10,6 +10,6 @@ record Greet (String message) {}
 public class HelloController {
     @GetMapping("/")
     public Greet index() {
-        return new Greet("hello bonjour");
+        return new Greet("hello bonjour omlet du frommage");
     }
 }
